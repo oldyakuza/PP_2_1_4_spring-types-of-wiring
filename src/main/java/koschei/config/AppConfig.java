@@ -13,4 +13,7 @@ public class AppConfig {
     public static Island2 getIsland(Wood3 wood) {
         return new Island2(wood);
     }
+
+    @Bean
+    public static Egg6 getEgg(Needle7 needle) {return new Egg6(needle); }
 }
